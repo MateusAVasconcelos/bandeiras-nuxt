@@ -45,11 +45,12 @@
 			</v-row>
 			<v-row>
 				<v-flex sm4 xs12 md4 class="pl-6 pr-6 pa-4" v-for="flag in paginaFlags" :key="flag.index">
-					<v-card  width="80%" height="200px">
+					<v-card  width="500px" height="200px">
 					<img
+						id="bandeira"
 						class="linkClickable" 
-						width="100%" 
-						height="200px" 
+						width="100%"
+						height="100%"
 						:src="flag.flag"
 						@click="getInformations(flag.alpha2Code)"
 					/>
@@ -348,7 +349,7 @@ export default {
 	},
 	async mounted() {
 		this.getFlags("all", null)
-	}
+	},
 }
 </script>
 <style scoped>
@@ -357,5 +358,8 @@ export default {
 	text-decoration: underline;
 	text-decoration-color: purple;
 	cursor: pointer;
+}
+#bandeira{
+	object-fit: cover;
 }
 </style>
