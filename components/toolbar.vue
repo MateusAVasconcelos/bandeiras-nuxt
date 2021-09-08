@@ -46,7 +46,7 @@
 
 <script>
 export default {
-    name:"cabeca",
+    name:"toolbar",
     methods: {
         onClickButton () {
             this.$emit('clicked')

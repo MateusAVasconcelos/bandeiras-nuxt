@@ -5,6 +5,7 @@
 			<v-row class="pl-1 pt-7 pb-7">
 				<v-flex md4 xs12 sm6>	
 					<v-autocomplete
+						class="option"
 						v-model="option"
 						:items="Filtro"
 						label="Escolha uma opção"
@@ -20,6 +21,7 @@
 				</v-flex>
 				<v-flex md4 xs12 sm6>
 					<v-autocomplete
+						class="selected"
 						v-model="selected"
 						v-if="option"
 						:items="filterList"
@@ -198,14 +200,19 @@ export default {
 	methods: {
 		//Função para pegar as bandeiras dos paises
 		async getFlags(option, selected){
-			if(selected != null){
-				const flags = await this.$axios.$get(`${option}/${selected}?fields=flag;alpha2Code`)
-				this.flags = flags
-			}else{
-				const flags = await this.$axios.$get(`${option}?fields=flag;alpha2Code`)
-				this.flags = flags
+			try{
+				if(selected != null){
+					const flags = await this.$axios.$get(`${option}/${selected}?fields=flag;alpha2Code`)
+					this.flags = flags
+				}else{
+					const flags = await this.$axios.$get(`${option}?fields=flag;alpha2Code`)
+					this.flags = flags
+				}
+				this.paginaFlags = this.flags.slice((this.page - 1)* this.perPage, this.page* this.perPage)
 			}
-			this.paginaFlags = this.flags.slice((this.page - 1)* this.perPage, this.page* this.perPage)
+			catch(e){
+				console.log(e)
+			}
 		},
 
 		//pega as informações do país
