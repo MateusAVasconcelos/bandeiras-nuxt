@@ -244,7 +244,7 @@ export default {
 				//filtro por região
 				case "region":
 					this.nameFilter = "Região"
-					const region = await this.$axios.$get('all?fields=region')
+					const region = await this.$axios.$get('/all?fields=region')
 					.then((region)=> {
 						this.filterList = region.filter(element => {
 							element.nome = element.region
@@ -256,7 +256,7 @@ export default {
 				//filtro por capital
 				case "capital":
 					this.nameFilter = "Capital"
-					const capital = await this.$axios.$get('all?fields=capital')
+					const capital = await this.$axios.$get('/all?fields=capital')
 					.then((capital)=>{
 						this.filterList = capital.filter(element => {
 							element.nome = element.capital
@@ -268,10 +268,10 @@ export default {
 				//filtro por língua
 				case "lang":
 					this.nameFilter = "Língua"
-					const lingua = await this.$axios.$get('all?fields=languages')
+					const lingua = await this.$axios.$get('/all?fields=languages')
 					this.linguas = lingua;
 					this.filterList = this.linguas.map((lingua)=>{
-						for(var i=0; i<lingua.languages.length; i++){
+						for(var i=0; i<lingua.languages?.length; i++){
 							if(lingua){
 								return {
 									nome: lingua.languages[i].nativeName,
@@ -284,7 +284,7 @@ export default {
 				//filtro por país
 				case "name":
 					this.nameFilter = "País"
-					const pais = await this.$axios.$get('all?fields=name')
+					const pais = await this.$axios.$get('/all?fields=name')
 					.then((pais)=>{
 						this.filterList = pais.filter(element => {
 							element.nome = element.name
@@ -296,10 +296,10 @@ export default {
 				//filtro por codigo de ligação
 				case "callingcode":
 					this.nameFilter = "Código de ligação"
-					const codigo = await this.$axios.$get('all?fields=callingCodes')
+					const codigo = await this.$axios.$get('/all?fields=callingCodes')
 					this.calling = codigo;
 					this.filterList = this.calling.map((call)=>{
-						for(var i=0; i<call.callingCodes.length; i++){
+						for(var i=0; i<call.callingCodes?.length; i++){
 							if(call){
 								return {
 									nome: call.callingCodes[i],
@@ -311,7 +311,7 @@ export default {
 				break;
 				//default país
 				default:
-					const defau = await this.$axios.$get('all?fields=name')
+					const defau = await this.$axios.$get('/all?fields=name')
 					.then((defau)=>{
 						this.filterList = defau.filter(element => {
 							element.nome = element.name

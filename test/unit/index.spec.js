@@ -43,7 +43,44 @@ describe('index.vue', () => {
 
     test('ter informações do pais clicado', async () => {
         await wrapper.vm.getInformations("AF")
-        expect(wrapper.vm.getInformations.length).toEqual(1)
+        expect(wrapper.vm.info).toBeDefined()
     })
 
+    test('ter informações do filtro por região', async () => {
+        await wrapper.setData ({ option: 'region' });
+        await wrapper.vm.filter()
+        expect(wrapper.vm.filterList).toBeDefined()
+    })
+
+
+    test('ter informações do filtro por capital', async () => {
+        await wrapper.setData ({ option: 'capital' });
+        await wrapper.vm.filter()
+        expect(wrapper.vm.filterList).toBeDefined()
+    })
+
+    test('ter informações do filtro por lingua', async () => {
+        await wrapper.setData ({ option: 'lang' });
+        await wrapper.vm.filter()
+        expect(wrapper.vm.filterList).toBeDefined()
+    })
+
+    test('ter informações do filtro por país', async () => {
+        await wrapper.setData ({ option: 'name' });
+        await wrapper.vm.filter()
+        expect(wrapper.vm.filterList).toBeDefined()
+    })
+
+    test('ter informações do filtro por código de ligação', async () => {
+        await wrapper.setData ({ option: 'callingcode' });
+        await wrapper.vm.filter()
+        expect(wrapper.vm.filterList).toBeDefined()
+    })
+
+    test('ter informações do filtro default', async () => {
+        await wrapper.setData ({ option: 'null' });
+        await wrapper.vm.filter()
+        expect(wrapper.vm.filterList).toBeDefined()
+    })
+    
 })

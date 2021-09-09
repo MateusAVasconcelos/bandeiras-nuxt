@@ -1,0 +1,752 @@
+[
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Polar"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": ""
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": ""
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Europe"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Americas"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Oceania"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Asia"
+    },
+    {
+        "region": "Africa"
+    },
+    {
+        "region": "Africa"
+    }
+]
