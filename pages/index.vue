@@ -36,6 +36,7 @@
 				</v-flex>
 				<v-flex md4 xs12 sm6>
 					<v-btn
+					class="pesquisar"
 					v-if="selected != null"
 					color="#6D2080"
 					dark
@@ -219,7 +220,7 @@ export default {
 		async getInformations(code){
 			this.clear()
 			this.viewPais = true
-			const info = await this.$axios.$get(`alpha/${code}?fields=name;flag;region;capital;languages;alpha2Code;population;subregion;borders`)
+			const info = await this.$axios.$get(`/alpha/${code}?fields=name;flag;region;capital;languages;alpha2Code;population;subregion;borders`)
 			this.info = info
 			this.getVizinhos(info)
 		},
@@ -227,7 +228,7 @@ export default {
 		//pega as bandeiras dos paises vizinhos do pais
 		async getVizinhos(info){
 			for(var contador = 0; contador<info.borders.length; contador++){
-				const vizinhos = await this.$axios.$get(`alpha/${info.borders[contador]}?fields=flag;alpha2Code`)
+				const vizinhos = await this.$axios.$get(`/alpha/${info.borders[contador]}?fields=flag;alpha2Code`)
 				.then((vizinhos)=>{
 					this.paisesVizinhos.push({
 						alpha2Code: vizinhos.alpha2Code,
@@ -355,7 +356,7 @@ export default {
 
 	},
 	async mounted() {
-		this.getFlags("all", null)
+		this.getFlags("/all", null)
 	},
 }
 </script>

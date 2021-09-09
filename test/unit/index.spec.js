@@ -6,6 +6,7 @@ import { createLocalVue, mount, shallowMount } from '@vue/test-utils'
 
 Vue.use(Vuetify);
 const localVue = createLocalVue()
+$axios.jsonOverwritesPath = 'index/'
 localVue.prototype.$axios = $axios
 let vuetify
 
@@ -36,7 +37,13 @@ describe('index.vue', () => {
         expect(segundoFiltro.exists()).toEqual(true)
     })
 
-    test('Ao clicar em uma bandeira, mudar a tela', async () => {
-
+    test('O total de bandeiras puxadas da API ser maior que', async () => {
+        expect(wrapper.vm.flags.length).toBeGreaterThan(200)
     })
+
+    test('ter informações do pais clicado', async () => {
+        await wrapper.vm.getInformations("AF")
+        expect(wrapper.vm.getInformations.length).toEqual(1)
+    })
+
 })
