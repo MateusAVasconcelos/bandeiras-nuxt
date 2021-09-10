@@ -82,5 +82,34 @@ describe('index.vue', () => {
         await wrapper.vm.filter()
         expect(wrapper.vm.filterList).toBeDefined()
     })
+
+    test('ver se a visibilidade da pagina está tendo 12 bandeiras', async () => {
+        wrapper.vm.visiblePages()
+        expect(wrapper.vm.paginaFlags.length).toBeGreaterThan(11)
+    })
+
+    test('ver se a visibilidade da pagina dos vizinhos está tendo 3 bandeiras', async () => {
+        await wrapper.vm.getInformations("AF")
+        wrapper.vm.visiblePagesVizinhos()
+        expect(wrapper.vm.paginaVizinhos.length).toBeGreaterThan(2)
+    })
+
+    test('Voltar pagina quando der back', async () => {
+        wrapper.setData({ option: 'capital' })
+        wrapper.setData({ selected: 'Kabul' })
+        await wrapper.vm.getInformations("AF")
+        wrapper.vm.back()
+        expect(wrapper.vm.viewPais).toBe(false)
+        expect(wrapper.vm.option).toEqual('capital')
+        expect(wrapper.vm.selected).toEqual('Kabul')
+    })
+
+    test('limpar variaveis caso não esteja na pagina 2', ()=>{
+        wrapper.setData({ option: 'capital' })
+        wrapper.setData({ selected: 'Kabul' })
+        wrapper.vm.back()
+        expect(wrapper.vm.option).toEqual(null)
+        expect(wrapper.vm.selected).toEqual(null)
+    })
     
 })
