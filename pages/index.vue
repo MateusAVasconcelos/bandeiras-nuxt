@@ -342,7 +342,7 @@ export default {
 			}else{
 				this.option = null
 				this.selected = null
-				this.getFlags("all", null)
+				this.getFlags("/all", null)
 			}
 		},
 
