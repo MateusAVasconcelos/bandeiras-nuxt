@@ -203,7 +203,7 @@ export default {
 		async getFlags(option, selected){
 			try{
 				if(selected != null){
-					const flags = await this.$axios.$get(`${option}/${selected}?fields=flag;alpha2Code`)
+					const flags = await this.$axios.$get(`/${option}/${selected}?fields=flag;alpha2Code`)
 					this.flags = flags
 				}else{
 					const flags = await this.$axios.$get(`${option}?fields=flag;alpha2Code`)

@@ -1,0 +1,214 @@
+[
+    {
+        "flag": "https://restcountries.eu/data/ala.svg",
+        "alpha2Code": "AX"
+    },
+    {
+        "flag": "https://restcountries.eu/data/alb.svg",
+        "alpha2Code": "AL"
+    },
+    {
+        "flag": "https://restcountries.eu/data/and.svg",
+        "alpha2Code": "AD"
+    },
+    {
+        "flag": "https://restcountries.eu/data/aut.svg",
+        "alpha2Code": "AT"
+    },
+    {
+        "flag": "https://restcountries.eu/data/blr.svg",
+        "alpha2Code": "BY"
+    },
+    {
+        "flag": "https://restcountries.eu/data/bel.svg",
+        "alpha2Code": "BE"
+    },
+    {
+        "flag": "https://restcountries.eu/data/bih.svg",
+        "alpha2Code": "BA"
+    },
+    {
+        "flag": "https://restcountries.eu/data/bgr.svg",
+        "alpha2Code": "BG"
+    },
+    {
+        "flag": "https://restcountries.eu/data/hrv.svg",
+        "alpha2Code": "HR"
+    },
+    {
+        "flag": "https://restcountries.eu/data/cyp.svg",
+        "alpha2Code": "CY"
+    },
+    {
+        "flag": "https://restcountries.eu/data/cze.svg",
+        "alpha2Code": "CZ"
+    },
+    {
+        "flag": "https://restcountries.eu/data/dnk.svg",
+        "alpha2Code": "DK"
+    },
+    {
+        "flag": "https://restcountries.eu/data/est.svg",
+        "alpha2Code": "EE"
+    },
+    {
+        "flag": "https://restcountries.eu/data/fro.svg",
+        "alpha2Code": "FO"
+    },
+    {
+        "flag": "https://restcountries.eu/data/fin.svg",
+        "alpha2Code": "FI"
+    },
+    {
+        "flag": "https://restcountries.eu/data/fra.svg",
+        "alpha2Code": "FR"
+    },
+    {
+        "flag": "https://restcountries.eu/data/deu.svg",
+        "alpha2Code": "DE"
+    },
+    {
+        "flag": "https://restcountries.eu/data/gib.svg",
+        "alpha2Code": "GI"
+    },
+    {
+        "flag": "https://restcountries.eu/data/grc.svg",
+        "alpha2Code": "GR"
+    },
+    {
+        "flag": "https://restcountries.eu/data/ggy.svg",
+        "alpha2Code": "GG"
+    },
+    {
+        "flag": "https://restcountries.eu/data/vat.svg",
+        "alpha2Code": "VA"
+    },
+    {
+        "flag": "https://restcountries.eu/data/hun.svg",
+        "alpha2Code": "HU"
+    },
+    {
+        "flag": "https://restcountries.eu/data/isl.svg",
+        "alpha2Code": "IS"
+    },
+    {
+        "flag": "https://restcountries.eu/data/irl.svg",
+        "alpha2Code": "IE"
+    },
+    {
+        "flag": "https://restcountries.eu/data/imn.svg",
+        "alpha2Code": "IM"
+    },
+    {
+        "flag": "https://restcountries.eu/data/ita.svg",
+        "alpha2Code": "IT"
+    },
+    {
+        "flag": "https://restcountries.eu/data/jey.svg",
+        "alpha2Code": "JE"
+    },
+    {
+        "flag": "https://restcountries.eu/data/lva.svg",
+        "alpha2Code": "LV"
+    },
+    {
+        "flag": "https://restcountries.eu/data/lie.svg",
+        "alpha2Code": "LI"
+    },
+    {
+        "flag": "https://restcountries.eu/data/ltu.svg",
+        "alpha2Code": "LT"
+    },
+    {
+        "flag": "https://restcountries.eu/data/lux.svg",
+        "alpha2Code": "LU"
+    },
+    {
+        "flag": "https://restcountries.eu/data/mkd.svg",
+        "alpha2Code": "MK"
+    },
+    {
+        "flag": "https://restcountries.eu/data/mlt.svg",
+        "alpha2Code": "MT"
+    },
+    {
+        "flag": "https://restcountries.eu/data/mda.svg",
+        "alpha2Code": "MD"
+    },
+    {
+        "flag": "https://restcountries.eu/data/mco.svg",
+        "alpha2Code": "MC"
+    },
+    {
+        "flag": "https://restcountries.eu/data/mne.svg",
+        "alpha2Code": "ME"
+    },
+    {
+        "flag": "https://restcountries.eu/data/nld.svg",
+        "alpha2Code": "NL"
+    },
+    {
+        "flag": "https://restcountries.eu/data/nor.svg",
+        "alpha2Code": "NO"
+    },
+    {
+        "flag": "https://restcountries.eu/data/pol.svg",
+        "alpha2Code": "PL"
+    },
+    {
+        "flag": "https://restcountries.eu/data/prt.svg",
+        "alpha2Code": "PT"
+    },
+    {
+        "flag": "https://restcountries.eu/data/kos.svg",
+        "alpha2Code": "XK"
+    },
+    {
+        "flag": "https://restcountries.eu/data/rou.svg",
+        "alpha2Code": "RO"
+    },
+    {
+        "flag": "https://restcountries.eu/data/rus.svg",
+        "alpha2Code": "RU"
+    },
+    {
+        "flag": "https://restcountries.eu/data/smr.svg",
+        "alpha2Code": "SM"
+    },
+    {
+        "flag": "https://restcountries.eu/data/srb.svg",
+        "alpha2Code": "RS"
+    },
+    {
+        "flag": "https://restcountries.eu/data/svk.svg",
+        "alpha2Code": "SK"
+    },
+    {
+        "flag": "https://restcountries.eu/data/svn.svg",
+        "alpha2Code": "SI"
+    },
+    {
+        "flag": "https://restcountries.eu/data/esp.svg",
+        "alpha2Code": "ES"
+    },
+    {
+        "flag": "https://restcountries.eu/data/sjm.svg",
+        "alpha2Code": "SJ"
+    },
+    {
+        "flag": "https://restcountries.eu/data/swe.svg",
+        "alpha2Code": "SE"
+    },
+    {
+        "flag": "https://restcountries.eu/data/che.svg",
+        "alpha2Code": "CH"
+    },
+    {
+        "flag": "https://restcountries.eu/data/ukr.svg",
+        "alpha2Code": "UA"
+    },
+    {
+        "flag": "https://restcountries.eu/data/gbr.svg",
+        "alpha2Code": "GB"
+    }
+]
