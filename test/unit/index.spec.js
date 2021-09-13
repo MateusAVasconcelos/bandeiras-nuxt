@@ -17,10 +17,10 @@ describe('index.vue', () => {
     const wrapper = shallowMount(index, {
         localVue,
         $axios,
-        vuetify, 
+        vuetify,
         data() {
             return {
-                
+
             }
         },
     })
@@ -42,8 +42,8 @@ describe('index.vue', () => {
     })
 
     test('Filtrar o total de bandeiras', async () => {
-        const option = 'capital' 
-        const selected = 'Kabul' 
+        const option = 'region'
+        const selected = 'europe'
         await wrapper.vm.getFlags(option, selected)
         expect(wrapper.vm.flags.length).toBeGreaterThan(50)
     })
@@ -118,5 +118,5 @@ describe('index.vue', () => {
         expect(wrapper.vm.option).toEqual(null)
         expect(wrapper.vm.selected).toEqual(null)
     })
-    
+
 })
